@@ -1,0 +1,60 @@
+.weather-card{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    width: 100%;
+    height: 100vh;
+    margin-top: 2%;
+}
+
+.first-row{
+    display: flex;
+    flex-direction: row;
+    flex-basis: content;
+}
+
+.city-block{
+    margin-left: 1%;
+    width: 100%;
+    height: max-content;
+    background-color: beige;
+    opacity: 0.8;
+    border-radius: 30px;
+    flex-basis: auto;
+    border: 3px solid black;
+}
+
+.temp-block{
+    margin-left: 1%;
+    width: 40%;
+    height: max-content;
+    background-color: beige;
+    border-radius: 30px;
+    padding: .9em;
+    border: 3px solid black;
+}
+
+.second-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+.humidity{
+     margin-left: 1%;
+    width: 50%;
+    height: max-content;
+    background-color: beige;
+    border-radius: 30px;
+    padding: .9em;
+    border: 3px solid black;
+}
+
+.wind{
+     margin-left: 1%;
+    width: 50%;
+    height: max-content;
+    background-color: beige;
+    border-radius: 30px;
+    padding: .9em;
+    border: 3px solid black;
+}

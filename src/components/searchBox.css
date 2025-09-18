@@ -1,0 +1,26 @@
+.search-form{
+    width: 100%;
+    background-size: contain;
+    background-image: url("./landscape20ideas.webp");
+    background-position: center;
+    background-size: cover;
+}
+.search-bar{
+    width: 57%;
+    height: 1cm;
+    margin: 3%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 10px -5px 99px -13px rgba(78, 77, 77, 0.07) inset;
+    text-indent: 10%;
+}
+
+.search-button{
+    width: 8%;
+    height: 1cm;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-left: 0px;
+}
